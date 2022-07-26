@@ -1,0 +1,222 @@
+#not-logged-in{
+    text-align: center;
+    background: #555555;
+    color:white;
+    font-size: 5rem;
+    padding: calc((50vh - 88px)) 0;
+    }
+    #my-account-outer{
+      background: #f7f9fa;
+    }
+    .my-account{
+      margin: 200px auto auto auto;
+      width: fit-content;
+    }
+    .my-account-header, .my-account-header-list{
+      display: flex;
+      width: fit-content;
+      margin: auto;
+    }
+    #my-account-logo-container{
+      margin-right:25px;
+      position: relative;
+      width: 135px;
+      margin: 35px 0;
+    }
+    #my-account-logo{
+      position: absolute;
+      right:0;
+      top: -120px;
+      height: 150px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border: 5px solid white;
+      -webkit-transition: border .1s ease-in;
+      -moz-transition: border .1s ease-in;
+      -o-transition: border .1s ease-in;
+      transition: border .1s ease-in;
+    }
+    #my-account-logo-container:hover #my-account-logo{
+      border: 0 solid white;
+    }
+    .my-account-header-list{
+      list-style: none;
+      height: 50px;
+      margin-bottom: 100px;
+    }
+    .my-account-header-list-notToggled, .my-account-header-list-toggled{
+      padding: 5px 75px;
+      cursor: pointer;
+      border-bottom:solid 1px #dadada;
+      font-size:1.3rem;
+    }
+    .my-account-header-list-toggled{
+      position: relative;
+      border-bottom: 5px solid #D5BA5E;
+    }
+    .my-account-header-list-toggled:after{
+      top: 28px;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(136, 183, 213, 0);
+      border-bottom-color: #D5BA5E;
+      border-width: 10px;
+      margin-left: -10px;
+    }
+    div.solid{
+      border-right:solid 1px #dadada;
+      height: 50px;
+    }
+    #my-account-overview-outer,#my-account-security-outer,#my-account-stats-outer{
+      display: flex;
+      width: 85vw;
+      padding-bottom: 25px;
+      height: 50vw;
+    }
+    .my-account-overview-products-container{
+      margin: 0 1rem;
+      width:50%;
+      background:white;
+      box-shadow: 1px 1px 4px #b9b8b8;
+      height: fit-content;
+    }
+    .my-account-overview-info-container, .my-account-overview-actions-container{
+      width:25%;
+      background:white;
+      box-shadow: 1px 1px 4px #b9b8b8;
+      height: fit-content;
+    }
+    .my-account-overview-section-title,.my-account-security-section-title,.my-account-stats-section-title{
+      font-weight: 400;
+      padding: 10px 0;
+      width: 95%;
+      margin: auto;
+      text-align: center;
+      border-bottom: #e7e7e7 solid 1px;
+      margin-bottom: 25px;
+    }
+    .my-account-overview-section-body,.my-account-security-section-body{
+      width:85%;
+      margin: auto;
+    }
+    .my-account-overview-section-body p{
+      margin-left: 25px;
+      color:#8f8e8e
+    }
+    .my-account-overview-section-body button{
+      margin: 10px 0 25px 0;
+      padding: 7px 25px 7px 25px;
+      width: 250px;
+      height: 50px;
+      text-align: start;
+      background: linear-gradient(to bottom, rgb(255, 0, 0),rgb(175, 4, 4));
+      color:white;
+      border:none;
+      font-size: 1.5rem;
+    }
+    .my-account-overview-section-body button:hover{
+      background:rgb(255, 0, 0);
+    }
+    .my-account-overview-section-button-container{
+      margin: 0;
+      padding: 0;
+      background:white;
+      border: none;
+    }
+    .my-account-overview-section-button-container button{
+      height: 50px;
+      margin-top: -5px;
+      width: 250px;
+    }
+    .my-account-overview-section-button-body{
+      width: fit-content;
+      border: 1px solid rgb(204, 204, 204);
+      margin-bottom: 10px;
+      margin-top: -20px;
+    }
+    .my-account-overview-section-button-container button:focus{
+      color:white;
+      outline: none;
+      border: none;
+      box-shadow: none;
+    }
+    .my-account-overview-section-button-body ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .my-account-overview-section-button-body ul li{
+      margin: 5px 5px;
+      padding: 10px 25px;
+      background:linear-gradient(to bottom,rgb(247, 1, 255),rgb(99, 17, 102));
+      color:white;
+      font-size: 1.2rem;
+      flex: 1 0 100px;
+      cursor: pointer;
+    }
+    .my-account-overview-section-products-titles{
+      font-size: 1.3rem;
+    }
+    .my-account-overview-section-products-body{
+      font-size: 1.2rem;
+    }
+    .my-account-overview-section-button-body ul li:Hover{
+      background:rgb(99, 17, 102);
+    }
+    .my-account-security-info-container{
+      width:40%;
+      background:white;
+      box-shadow: 1px 1px 4px #b9b8b8;
+      height: fit-content;
+      margin: 0 auto;
+    }
+    .my-account-security-danger-container{
+      width:50%;
+      background:white;
+      box-shadow: 1px 1px 4px #b9b8b8;
+      height: fit-content;
+      margin: 0 auto;
+    }
+    .my-account-security-section-body-edit{
+      margin-left: auto;
+      border-bottom: 1px black solid;
+      cursor: pointer;
+    }
+    .my-account-security-section-body-edit:hover{
+      border-bottom: 1px rgb(156, 155, 155) solid;
+      color:rgb(156, 155, 155);
+    }
+    .my-account-security-section-body-delete{
+      margin-left: auto;
+      border-bottom: 1px red solid;
+      color:red;
+      cursor: pointer;
+    }
+    .my-account-security-section-body-delete:hover{
+      color:rgb(248, 98, 98);
+      border-bottom: rgb(248, 98, 98) 1px solid;
+    }
+    .my-account-security-section-body-p{
+      margin-left: 25px;
+      color:#8f8e8e;
+    }
+    .my-account-security-section-body div{
+      display: flex;
+    }
+    .my-account-stats-transactions-container{
+      width:100%;
+      background:white;
+      box-shadow: 1px 1px 4px #b9b8b8;
+      height: fit-content;
+    }
+    .my-account-stats-section-transactions-titles{
+      font-size: 1.4rem;
+    }
+    .my-account-stats-section-transactions-body{
+      font-size: 1.3rem;
+    }

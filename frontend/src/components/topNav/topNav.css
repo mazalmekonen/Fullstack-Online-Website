@@ -1,0 +1,133 @@
+.links ,.links-active{
+    text-decoration: none;
+    color:white;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin-left: 1rem;
+  }
+  .links:hover ,#account:hover,.links-active:hover{
+    border: white 2px solid;
+    color: white;
+  }
+  #account{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: fit-content;
+    border: 2px solid transparent;
+  }
+  #account-dropdowns{
+    width: 100%;
+    margin: auto;
+  }
+  .account-dropdowns-within{
+    font-size: 1.4rem;
+    width: fit-content;
+    margin: auto;
+    border-bottom:transparent 2px solid;
+  }
+  .account-dropdowns-within *{
+    color: black;
+    text-decoration: none;
+  }
+  .account-dropdowns-within *:hover{
+    color: #d64c7f;
+  }
+  .dropdown-toggle::after {
+    display: none !important; 
+  }
+  .account-dropdowns-within:hover{
+    border-bottom:#d64c7f 2px solid;
+    color: #d64c7f;
+    background: none;
+    width: fit-content;
+  }
+  .links-active{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    border-bottom: white 2px solid;
+    color: white;
+  }
+  #logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+  }
+  #logo-container{
+    width: fit-content;
+    margin-right: 100px;
+  }
+  #searchBar{
+    margin: auto;
+    height: 50px;
+    flex-grow: 1;
+    font-size: 1.7rem;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+  }
+  #searchIcon{
+    font-size: 2rem;
+  }
+  #searchIcon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    height: 50px;
+    width: 75px;
+    background: rgb(233, 140, 64);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+  }
+  #topNav-outer{
+    align-items: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(black,gray 200%);
+    width: 100%;
+  }
+  /*--------------------------------------------------------cart--------------------------------------------------------------*/
+.cart-bg{
+  width: 500px;
+  font-size: 1.5rem;
+}
+.cart-image{
+  width:75px;
+  height: 75px;
+  border-radius:5px;
+}
+.cart-product-price{
+  color:black;
+  font-size:1.5rem;
+}
+#cart-total-cost{
+  text-align: center;
+  font-size: 2rem;
+  color: green;
+  margin: 5px 0;
+  font-weight: bold;
+}
+#cart-button-group-container{
+  width: fit-content;
+  margin: auto;
+}
+.cart-button{
+  width: 150px;
+  height: 50px;
+  border-radius:0;
+  margin: 5px 1.5rem;
+  cursor: pointer;
+}
+.within{
+  width: fit-content;
+}

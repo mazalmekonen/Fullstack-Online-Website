@@ -1,0 +1,352 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  background: url('./assets/images/pageBg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:black;
+  font-family: 'Times',Helvetica,Arial,sans-serif;
+}
+ul{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+/*--------------------------------------------------------pagi-------------------------------------------------------------*/
+.pagination{
+  margin: 0 auto 1rem auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: fit-content;
+}
+.pagination-page{
+width: 50px;
+text-align: center;
+font-size: 1.5rem;
+}
+.page-link{
+  background:#555555;
+  border:none;
+  color:white;
+}
+.page-item.active .page-link{
+background:#212529;
+}
+/*---------------------------------------------------------alert-----------------------------------------------------------*/
+#alert-body{
+  background: #212529;
+  color:white;
+  font-size: 1.2rem;
+}
+#alert-header{
+  background:#dedfdf;
+  color:#373940;
+  font-size: 1.4rem;
+}
+#alert-container{
+  position: fixed;
+  left:50%;
+  top:0;
+  transform: translate(-50%, 25%);
+  z-index: 1000;
+}
+@media screen and (max-width: 1600px) {
+  #products-container-outer{
+    width: 100%;
+    padding-bottom: 0;
+  }
+  #homeTitle{
+    padding-top: 0;
+  }
+  #searchBar{
+    position: absolute;
+    top: 235px;
+    left: 15%;
+    height: 75px;
+    width: 80%;
+    font-size: 3rem;
+  }
+  #searchIcon-container{
+    top:235px;
+    height: 75px;
+    left: 5%;
+    width: 100px;
+    position: absolute;
+  }
+  #topNav-outer{
+    height: 350px;
+  }
+  #account{
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+  }
+  .links,.links-active{
+    font-size: 3rem;
+    margin-left: 12%;
+    margin-bottom: 2.5%;
+  }
+  .cart-bg{
+    font-size: 3rem;
+    width: 70vw;
+  }
+  .cart-button{
+    font-size: 3rem;
+    width: 300px;
+    height: fit-content;
+  }
+  .within{
+    width: 100px;
+  }
+  #cart-outer{
+    max-height:25vh;
+    width: 70vw;
+    overflow-y:auto;
+  }
+  .cart-image{
+    width: 100px;
+    height: 100px;
+  }
+  .cart-product-price{
+    font-size: 3rem;
+  }
+  #cart-total-cost{
+    font-size:3rem;
+  }
+  #cart-button-group-container{
+    width: fit-content;
+    height: fit-content;
+  }
+  #homeContainer{
+    height: 85vh;
+    padding-top: 500px;
+  }
+  .my-account-overview-section-body button{
+    width: 150px;
+    height: fit-content;
+    font-size: 1.3rem;
+  }
+  .my-account-overview-section-body p{
+    font-size: 2rem;
+  }
+  .my-account-overview-section-body h5{
+    font-size: 2.5rem;
+  }
+  .my-account-overview-section-products-titles{
+    font-size: 0.9rem;
+  }
+  .my-account-overview-section-products-body{
+    font-size: 0.8rem;
+  }
+  #my-account-overview-outer,#my-account-security-outer,#my-account-stats-outer{
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  #account-dropdowns{
+    width: 100%;
+    margin: auto;
+  }
+  .account-dropdowns-within{
+    font-size: 4rem;
+    width: fit-content;
+    margin: auto;
+  }
+  #logo{
+    width: 100px;
+    height: 100px;
+    margin-left:100%;
+    margin-top: -50px;
+    border-radius: 100%;
+  }
+  #logo-container{
+    margin-right:0;
+  }
+  #auction-search{
+    height: fit-content;
+  }
+  #auction-search-input{
+    font-size: 3rem;
+    width:85%;
+  }
+  #auction-search-input::placeholder{
+    font-size: 3rem;
+  }
+  #auction-search-button{
+    font-size: 2.5rem;
+    width: 15%;
+    height: 4.5rem;
+  }
+  #auction-header-filterBy{
+    font-size: 2.5rem;
+    margin-left: 50px;
+    width: 400px;
+  }
+  #auction-sortby-icon{
+    position:absolute;
+    left:-75px;
+    font-size:3rem;
+    top:10%;
+  }
+  .auction-filterBy-button,.auction-filterBy-button-selected{
+    font-size: 2.5rem;
+  }
+  .auction-filterBy-button-selected:after{
+    top: 60px;
+  }
+  #auction-header-sort-name,#auction-header-sort-price{
+    font-size: 1.5rem;
+    top:23px;
+  }
+  #auction-header-sort-price{
+    right:225px;
+  }
+  .pop-screen-header img{
+      height: 150px;
+  }
+  .pop-screen-header h1{
+      font-size: 4rem;
+  }
+  .pop-screen-body input{
+      font-size: 2.5rem;
+  }
+  .pop-screen-body select{
+      font-size: 2.5rem;
+  }
+  .pop-screen-footer>*{
+      width: 200px;
+      height: 75px;
+      font-size: 2rem;
+  }
+  #terms-of-use{
+      width: fit-content;
+      margin: auto;
+      display: flex;
+      font-size: 1.5rem;
+  }
+  #terms-of-use a{
+    margin-left:0.3rem;
+    color: turquoise;
+  }
+  .pop-screen-container .modal-content{
+    width: 100vw;
+  }
+  #auction-container{
+    margin-top: 250px;
+  }
+  #my-account-overview-outer,#my-account-security-outer,#my-account-stats-outer{
+    display: block;
+    width: 85vw;
+    padding-bottom: 25px;
+    height: fit-content;
+  }
+  .my-account-overview-products-container{
+    width:100%;
+  }
+  .my-account-overview-info-container, .my-account-overview-actions-container{
+    width:100%;
+  }
+  .my-account-overview-actions-container{
+    padding-bottom: 25px;
+  }
+  .my-account-overview-section-title,.my-account-security-section-title,.my-account-stats-section-title{
+    font-size: 3rem;
+  }
+  .my-account-overview-section-body button{
+    width: 100%;
+    font-size: 2rem;
+  }
+  .my-account-overview-section-button-container button{
+    width: 100%;
+  }
+  .my-account-overview-section-products-titles{
+    font-size: 1.7rem;
+  }
+  .my-account-overview-section-products-body{
+    font-size: 1.5rem;
+  }
+  .my-account-security-info-container{
+    width:100%;
+    background:white;
+    box-shadow: 1px 1px 4px #b9b8b8;
+    height: fit-content;
+    margin: 50px auto;
+  }
+  .my-account-security-danger-container{
+    width:100%;
+    background:white;
+    box-shadow: 1px 1px 4px #b9b8b8;
+    height: fit-content;
+    margin: 0 auto;
+  }
+  .my-account-security-section-body-edit{
+    font-size: 2rem;
+  }
+  .my-account-security-section-body-delete{
+    font-size: 2rem;
+  }
+  .my-account-security-section-body-p{
+    font-size: 2rem;
+  }
+  .my-account-security-section-body h5{
+    font-size: 2.5rem;
+  }
+  .my-account-stats-transactions-container{
+    width:100%;
+    background:white;
+    box-shadow: 1px 1px 4px #b9b8b8;
+    height: fit-content;
+  }
+  .my-account-stats-section-transactions-titles{
+    font-size: 2rem;
+  }
+  .my-account-stats-section-transactions-body{
+    font-size: 1.7rem;
+  }  
+.my-account-header-list-notToggled, .my-account-header-list-toggled{
+  padding: 0 40px;
+  margin-bottom: -10px;
+  font-size:2.5rem;
+}
+.my-account-header-list-toggled:after{
+  top: 35px;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: #D5BA5E;
+  border-width: 10px;
+  margin-left: -10px;
+}
+#alert-body{
+  background: #212529;
+  color:white;
+  font-size: 2rem;
+  width: 500px;
+}
+#alert-header{
+  background:#dedfdf;
+  color:#373940;
+  font-size: 2rem;
+  width: 500px;
+}
+#alert-container{
+  position: fixed;
+  left:50%;
+  top:0;
+  transform: translate(-50%, 25%);
+  z-index: 1000;
+}
+.admin-accounts-container,.admin-products-container,.admin-stats-container {
+  width: 95vw;
+  border-radius:0;
+}
+#products-table{
+  font-size: 2rem;
+}
+}
